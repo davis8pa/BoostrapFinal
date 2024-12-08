@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="description" content="Fantasy Tracker">
+  <meta name="author" content="Parker Davis">
+  <link rel="stylesheet" href="custom.css">
+  <title>Fantasy Football Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      scroll-behavior: smooth;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+    nav a:hover {
+      background: #555;
+      border-radius: 5px;
+    }
+    section {
+      height: 100vh;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    h1 {
+      margin-bottom: 10px;
+    }
+    p {
+      max-width: 600px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#Joe">Joe Burrow</a>
+    <a href="#CeeDee">CeeDee Lamb</a>
+    <a href="#Amon-Ra">Amon-Ra St.Brown</a>
+    <a href="#Alvin">Alvin Kamara</a>
+    <a href="#David">David Montgomery</a>
+    <a href="#Headshots">Headshots</a>
+  </nav>
+
+  <div id="home" class="container-fluid">
+    <h1>Welcome to My Fantasy Football Tracker</h1>
+    <p>This site documents the performance of my fantasy football players this season. Scroll through to see stats on each player!</p>
+  </div>
+
+  <section id="Joe">
+    <h1>Joe Burrow</h1>
+    <p>
+    Joe Burrow has had a strong 2024 season so far, playing in 11 games for the Cincinnati Bengals.<br><br>
+    <strong>Passing Stats:</strong><br>
+    - 274 completions on 408 attempts (67.2% completion rate).<br>
+    - 3,028 passing yards.<br>
+    - 27 touchdowns.<br>
+    - 4 interceptions.<br><br>
+    <strong>Rushing Stats:</strong><br>
+    - 31 rushing attempts.<br>
+    - 151 rushing yards (4.9 yards per carry).<br>
+    - 1 rushing touchdown.
+
+</p>
+ <img src="Bengels.png" alt="Cincinnati Bengals Logo" class="team-logo">
+  </section>
+
+  <section id="CeeDee">
+    <h1>CeeDee Lamb</h1>
+<p>
+    CeeDee Lamb has been a top-performing wide receiver in the 2024 season, playing 12 games for the Dallas Cowboys.<br> <br>
+    <strong>Receiving Stats:</strong><br>
+    - 79 receptions on 124 targets.<br>
+    - 880 receiving yards (11.1 yards per reception).<br>
+    - 4 receiving touchdowns.<br><br>
+    <strong>Rushing Stats:</strong><br>
+    - 13 rushing attempts.<br>
+    - 69 rushing yards.<br><br>
+    <strong>Other Stats:</strong><br>
+    - 1 fumble lost.<br>
+    - Averaging 16.5 fantasy points per game (standard scoring).
+</p>
+ <img src="Cowboys.png" alt="Dallas Cowboys Logo" class="team-logo">
+  </section>
+
+  <section id="Amon-Ra">
+    <h1>Amon-Ra St.Brown</h1>
+<p>
+    Amon-Ra St. Brown has had an impressive 2024 season so far, showcasing his reliability as a top wide receiver for the Detroit Lions.<br> <br>
+    <strong>Receiving Stats:</strong><br>
+    - 71 receptions.<br>
+    - 85 targets (83.5% catch rate).<br>
+    - 747 receiving yards.<br>
+    - 9 receiving touchdowns.<br>
+    - 10.5 yards per catch.<br><br>
+    <strong>Rushing Stats:</strong><br>
+    - 1 rushing attempt.<br>
+    - -4 rushing yards.<br><br>
+    <strong>Other Stats:</strong><br>
+    - 0 fumbles lost.<br>
+</p>
+ <img src="Lions.png" alt="Detroit Lions Logo" class="team-logo">
+  </section>
+
+  <section id="Alvin">
+    <h1>Alvin Kamara</h1>
+    <p>
+    Alvin Kamara has been a consistent contributor for the New Orleans Saints in the 2024 season.<br> <br>
+    <strong>Rushing Stats:</strong><br>
+    - 74.5 rushing attempts.<br>
+    - 74.5 rushing yards per game.<br>
+    - 0.5 rushing touchdowns per game.<br><br>
+    <strong>Receiving Stats:</strong><br>
+    - 4.9 receptions per game.<br>
+    - 35.4 receiving yards per game.<br>
+    - 0.2 receiving touchdowns per game.<br><br>
+    <strong>Fantasy Stats:</strong><br>
+    - Average Fantasy Points per Game: 14.7.<br>
+</p>
+<img src="Saints-2.png" alt="New Orleans Saints Logo" class="team-logo">
+  </section>
+
+  <section id="David">
+    <h1>David Montgomery</h1>
+    <p>
+    David Montgomery has been a steady contributor for the Detroit Lions in the 2024 season.<br> <br>
+    <strong>Rushing Stats:</strong><br>
+    - 145 rushing attempts.<br>
+    - 632 rushing yards (4.3 yards per carry).<br>
+    - 6 rushing touchdowns.<br><br>
+    <strong>Receiving Stats:</strong><br>
+    - 24 receptions.<br>
+    - 241 receiving yards.<br>
+    - 1 receiving touchdown.<br><br>
+    <strong>Fantasy Stats:</strong><br>
+    - Total Fantasy Points: 179.3.<br>
+    - Average Fantasy Points per Game: 16.3.<br>
+</p>
+<img src="Lions.png" alt="Detroit Lions Logo" class="team-logo">
+  </section>
+
+<section id="Headshots"
+ class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+
+
+  <div id="carouselExample" class="carousel slide small-carousel" data-bs-ride="carousel">
+    <div class="carousel-item active">
+      <img src="joe.png" class="d-block w-100" alt="Joe Burrow Headshot">
+    </div>
+   
+    <div class="carousel-item">
+      <img src="ceedee.webp" class="d-block w-100" alt="CeeDee Lamb Headshot">
+    </div>
+    
+    <div class="carousel-item">
+      <img src="amonra.png" class="d-block w-100" alt="Amon-Ra St.Brown Headshot">
+    </div>
+    
+    <div class="carousel-item">
+      <img src="alvin.png" class="d-block w-100" alt="Alvin Kamara Headshot">
+    </div>
+    
+    <div class="carousel-item">
+      <img src="david.png" class="d-block w-100" alt="David Montgomery Headshot">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
