@@ -1,0 +1,182 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #f4f4f4; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  text-align: center;
+}
+
+body, h1, p { 
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.small-carousel {
+  max-width: 350px; 
+  margin: 0 auto;   
+}
+
+.small-carousel .carousel-inner img {
+  height: 200px;     
+  object-fit: cover; 
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.team-logo {
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+}
+
+#home {
+  background-image: url('Football.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 50px 20px; 
+  width: 100%;
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  margin: 0;
+}
+
+#Joe, #CeeDee, #Amon-Ra, #Alvin, #David {
+  background-color: rgba(0, 0, 0, 0.6); 
+  padding: 30px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px;
+  color: white; 
+  margin-bottom: 30px;
+  text-align: center; 
+}
+
+#Joe { background: #fb4f14; }
+#CeeDee { background: #0061d5; }
+#Amon-Ra { background: #00a5df; }
+#Alvin { background: #D3BC8D; }
+#David { background: #00a5df; }
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+p {
+  max-width: 600px;
+  font-size: 1rem;
+}
+
+strong { font-weight: bold; }
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #f4a261;
+}
+
+/* Carousel Styles */
+.carousel {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto; /* Center carousel */
+  position: relative;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item {
+  display: none; /* Hide all images initially */
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Show active item */
+.carousel-item.active {
+  display: block;
+}
+
+/* Carousel Navigation */
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  color: black;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
